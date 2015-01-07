@@ -14,7 +14,7 @@ int main() {
 
     // enter values into matrix
     for( int i = 0; i < n; i++ ) {
-        string line
+        string line;
         cin >> line;
         for( int j = 0; j < n; j++ ) {
             int digit = line.at( j ) - '0';
